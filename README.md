@@ -3,7 +3,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=500&color=CAEDB8&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=loading...;Hello%2C+World!;CE+%40+Georgia+Tech;embedded+systems;computer+architecture;bare+metal+firmware" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-rismaael3%40gatech.edu-CAEDB8?style=flat-square&logo=gmail&logoColor=56694F)](mailto:rismaael3@gatech.edu)
-[![LinkedIn](https://img.shields.io/badge/linkedin-randismaael-CD9B59?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/randismaael)
+[![LinkedIn](https://img.shields.io/badge/linkedin-randismaael-CD9B59?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rand-ismaael-b92728294/)
 [![GitHub](https://img.shields.io/badge/github-randismaael-56694F?style=flat-square&logo=github&logoColor=CAEDB8)](https://github.com/randismaael)
 
 ```
@@ -17,7 +17,7 @@
 
 ### 🌷 about
 
-CE student at Georgia Tech (Systems & Architecture / Distributed Systems) focused on the intersection of hardware and software. I like understanding how and why things work at the lowest level possible!
+CE student at Georgia Tech (Systems & Architecture + Distributed Systems & Software Design) focused on the intersection of hardware and software. I like understanding how and why things work at the lowest level possible!
 
 Currently: undergraduate researcher at **SIPLab** + building a bare metal OS on an STM32 from scratch.
 
