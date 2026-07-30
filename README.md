@@ -1,14 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=500&color=CAEDB8&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=loading...;Hello%2C+World!;name+%3A%3A+Rand+Ismaael;school+%3A%3A+Georgia+Tech+%E2%80%94+Computer+Engineering;focus+%3A%3A+embedded+systems+%C2%B7+computer+architecture;status+%3A%3A+building+bare+metal+OS+on+STM32;based+%3A%3A+Atlanta%2C+GA" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=500&color=CAEDB8&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=loading...;Hello%2C+World!;CE+%40+Georgia+Tech;embedded+systems;computer+architecture;bare+metal+firmware" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-rismaael3%40gatech.edu-CAEDB8?style=flat-square&logo=gmail&logoColor=56694F)](mailto:rismaael3@gatech.edu)
 [![LinkedIn](https://img.shields.io/badge/linkedin-randismaael-CD9B59?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/randismaael)
 [![GitHub](https://img.shields.io/badge/github-randismaael-56694F?style=flat-square&logo=github&logoColor=CAEDB8)](https://github.com/randismaael)
-
-</div>
-
----
 
 ```
 ╔══════════════════════════════════════════════════════╗
@@ -16,6 +12,8 @@
 ║  embedded systems · computer architecture · C/C++    ║
 ╚══════════════════════════════════════════════════════╝
 ```
+
+</div>
 
 ### 🌷 about
 
