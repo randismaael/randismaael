@@ -1,4 +1,6 @@
-[<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=CAEDB8&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=building+bare+metal+firmware;no+HAL%2C+no+problem;reading+datasheets+for+fun;CE+%40+Georgia+Tech" alt="Typing SVG" />](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=500&color=CAEDB8&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=loading...;Hello%2C+World!;name+%3A%3A+Rand+Ismaael;school+%3A%3A+Georgia+Tech+%E2%80%94+Computer+Engineering;focus+%3A%3A+embedded+systems+%C2%B7+computer+architecture;status+%3A%3A+building+bare+metal+OS+on+STM32;based+%3A%3A+Atlanta%2C+GA)
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=500&color=CAEDB8&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=loading...;Hello%2C+World!;name+%3A%3A+Rand+Ismaael;school+%3A%3A+Georgia+Tech+%E2%80%94+Computer+Engineering;focus+%3A%3A+embedded+systems+%C2%B7+computer+architecture;status+%3A%3A+building+bare+metal+OS+on+STM32;based+%3A%3A+Atlanta%2C+GA" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-rismaael3%40gatech.edu-CAEDB8?style=flat-square&logo=gmail&logoColor=56694F)](mailto:rismaael3@gatech.edu)
 [![LinkedIn](https://img.shields.io/badge/linkedin-randismaael-CD9B59?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/randismaael)
@@ -15,13 +17,13 @@
 ╚══════════════════════════════════════════════════════╝
 ```
 
-### 👾 about
+### 🌷 about
 
 CE student at Georgia Tech (Systems & Architecture / Distributed Systems) focused on the intersection of hardware and software. I like understanding how and why things work at the lowest level possible!
 
 Currently: undergraduate researcher at **SIPLab** + building a bare metal OS on an STM32 from scratch.
 
-### 🕹️ featured projects
+### 🌸 featured projects
 
 | project | stack | what it is |
 |---|---|---|
@@ -38,7 +40,7 @@ Currently: undergraduate researcher at **SIPLab** + building a bare metal OS on 
 
 **SIPLab @ Georgia Tech** — computing 1P/2P photocurrent sensitivity ratios across channelrhodopsin variants for neural simulation. finite-difference methods, Hill function curve fitting, Python/Jupyter pipelines.
 
-*I’m fascinated by the “brains” that drive the world around us, whether in silicon or biology!*
+*I'm fascinated by the "brains" that drive the world around us, whether in silicon or biology!*
 
 ---
 
@@ -70,7 +72,6 @@ Protocols:   UART  ·  SPI  ·  I2C
 <div align="center">
 
 ```
-                                                                                    
                      .=##=            =##=.                     
                     +##@**:::.:..:.:::**@##+                    
                   :#%#+:=.            :=:+#%#:                  
@@ -98,9 +99,8 @@ Protocols:   UART  ·  SPI  ·  I2C
  .%%#####%%##***%####+--=%*****##*****#=--#%####+***#%%##%##%%. 
  .%%%%%%%%%%%%#####%##**#%##***%%***###***#####%##%%%%%%%%%%%%. 
  .%%%%%%%%%%%%%%%%%%%%%%%%####****####%%%%%%%%%%%%%%%%%%%%%#%%. 
-                                                                
-
 ```
-<div align="center">
+
 <sub>built from the ground up</sub>
+
 </div>
