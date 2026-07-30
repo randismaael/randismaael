@@ -21,26 +21,7 @@ CE student at Georgia Tech (Systems & Architecture / Distributed Systems) focuse
 
 Currently: undergraduate researcher at **SIPLab** + building a bare metal OS on an STM32 from scratch.
 
----
-
-### 🕹️ hello, bare metal world
-
-```c
-// STM32F103C8T6 — no HAL, no BSP, no shortcuts
-// enable APB2 clock for GPIOC
-RCC->APB2ENR |= (1 << 4);
-
-// PC13 as output (CNF=00, MODE=10 → 2MHz push-pull)
-GPIOC->CRH &= ~(0xF << 20);
-GPIOC->CRH |=  (0x2 << 20);
-
-// toggle LED
-GPIOC->ODR ^= (1 << 13);
-```
-
----
-
-### 🗡️ featured projects
+### 🕹️ featured projects
 
 | project | stack | what it is |
 |---|---|---|
@@ -87,10 +68,6 @@ Protocols:   UART  ·  SPI  ·  I2C
 </picture>
 
 <div align="center">
-<sub>built from the ground up · no HAL · no shortcuts</sub>
-</div>
-
-<div align="center">
 
 ```
                                                                                     
@@ -124,3 +101,6 @@ Protocols:   UART  ·  SPI  ·  I2C
                                                                 
 
 ```
+<div align="center">
+<sub>built from the ground up</sub>
+</div>
