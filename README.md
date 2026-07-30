@@ -1,5 +1,44 @@
-<!-- Header -->
 <div align="center">
+
+```
+                     -=*+:...........:+*=:                     
+                   :*###+=:::::::::::=+*##*:                   
+                  =##*-:.             ::-+##=                  
+                 +##*                    .*##+                 
+                -**+=:====----===-----===:=+**-                
+  +*+++++*********************+****************+*******++++++. 
+ .+++*==**++--==+++***#*+=-=++++*+++=-++*#***=++-=-=++*+-++++. 
+ .+*+++::-+*++---+*+++-+#*++*+:::-**++*#=:*=+*=---++*=::-++*+. 
+ .+*###*+++++**++++**#*++**-:.:--:.:=*+++#*++++++**+++++*##*+. 
+ .+*#=:=*#*++*=:::=++++*=:.::-=++=-:.:-*+++*+-:::=*+*##*-:+*+. 
+ .+**=:-==+*##***+++#*-::::-=+===++--::::=#*+++***##+==--:+*+. 
+ .+*+*-=======*##*##*=::--=*==+**+=++--:::+###*##+======:++*+. 
+ .+*+*====-+==+==+*#*+++**+++*#**#*=+*+*+++##*+==+=+=-===++*+. 
+ .+*+*====++++*======+##*==*##***##%+=+##*+=======-++====++**. 
+ .**+*===+++#+=-=*+===+*+=*##########+=**=====--=*#*+++==++**. 
+ .**+*=+++**======-:**#+=+-..-*#*-..-*+++*=:-=====-**+++=++**. 
+ .**+*++++*-:=====-:-==+#*-. -*#*-. -*#===:--=====::**=++++**. 
+ .**+*+*++=.:=====-=+++++#-..-*##-..-*=+++=--=====:.-+++**+**. 
+ .*#+**+*+:.:========+*:=*####%%%####*--*+========:..=*+**+**. 
+ .*#*****=:::=====+==*=:-+==*%%%%%#===-:++==+====+:..-+***+**. 
+ .*#**#**+:::====+*++*::=++++++#+=++++-:-*=+++===+:::=**##+**. 
+  +#**##**=::===+***#+::=+++++*#*+++++-::*****+=++-:-+**##*#+  
+ :##**#*#**=:=++****#=:-=+++++*#*+++++=::+#****+++--+*##*#*##: 
+ :##**#**##**+++***#*=--***+++++++++**+--+#****++++*###*##*##: 
+ :#%##########*#####********++***++*****+*#####**############: 
+ :###########*###########****++=++****#######################:
+
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=CAEDB8&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=building+bare+metal+firmware;no+HAL%2C+no+problem;reading+datasheets+for+fun;CE+%40+Georgia+Tech" alt="Typing SVG" />
+
+[![Email](https://img.shields.io/badge/email-rismaael3%40gatech.edu-CAEDB8?style=flat-square&logo=gmail&logoColor=56694F)](mailto:rismaael3@gatech.edu)
+[![LinkedIn](https://img.shields.io/badge/linkedin-randismaael-CD9B59?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/randismaael)
+[![GitHub](https://img.shields.io/badge/github-randismaael-56694F?style=flat-square&logo=github&logoColor=CAEDB8)](https://github.com/randismaael)
+
+</div>
+
+---
 
 ```
 ╔══════════════════════════════════════════════════════╗
@@ -8,52 +47,77 @@
 ╚══════════════════════════════════════════════════════╝
 ```
 
-[![Email](https://img.shields.io/badge/email-rismaael3%40gatech.edu-b5ead7?style=flat-square&logo=gmail&logoColor=white)](mailto:rismaael3@gatech.edu)
-[![LinkedIn](https://img.shields.io/badge/linkedin-randismaael-ffb7c5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/randismaael)
-
-</div>
-
----
-
 ### 👾 about
 
-CE student at Georgia Tech (Systems & Architecture / Distributed Systems) focused on the intersection of hardware and software. I like understanding how things work at the lowest level possible — from CPU pipelines to bare metal microcontrollers.
+CE student at Georgia Tech (Systems & Architecture / Distributed Systems) focused on the intersection of hardware and software. I like understanding how and why things work at the lowest level possible!
 
 Currently: undergraduate researcher at **SIPLab** + building a bare metal OS on an STM32 from scratch.
 
 ---
 
-### 🕹️ featured projects
+### 🕹️ hello, bare metal world
+
+```c
+// STM32F103C8T6 — no HAL, no BSP, no shortcuts
+// enable APB2 clock for GPIOC
+RCC->APB2ENR |= (1 << 4);
+
+// PC13 as output (CNF=00, MODE=10 → 2MHz push-pull)
+GPIOC->CRH &= ~(0xF << 20);
+GPIOC->CRH |=  (0x2 << 20);
+
+// toggle LED
+GPIOC->ODR ^= (1 << 13);
+```
+
+---
+
+### 🗡️ featured projects
 
 | project | stack | what it is |
 |---|---|---|
-| [**stm32-os**](https://github.com/randismaael/stm32-os) | C · ARM Assembly | bare metal firmware on STM32F103C8T6 — no HAL, direct register access, GPIO + SysTick + UART verified on hardware |
+| [**stm32-os**](https://github.com/randismaael/stm32-os) | C · ARM Assembly | bare metal firmware w/ vector table, GPIO, SysTick, UART verified on hardware |
 | [**chip8**](https://github.com/randismaael/chip8) | C++ · SDL2 | CHIP-8 emulator with full fetch-decode-execute cycle and function pointer opcode dispatch |
-| **RISC-V Pipeline** | SystemVerilog | 5-stage RV32I pipelined processor with forwarding, hazard detection, and stall control |
-| **CPU Scheduler** | C · pthreads | FIFO and Round Robin scheduling with mutex-protected ready queues across 8 simulated CPUs |
+| **RISC-V Pipeline** | SystemVerilog | 5-stage RV32I pipelined processor with forwarding, hazard detection, stall control |
+| [**Multithreaded UAV Simulation**](https://github.com/randismaael/ECE-4122/tree/main/Project) | C · OpenGL | 16-thread real-time simulation with PID control and collision response for 15 simultaneously active UAVs |
 
-> RISC-V and CPU Scheduler source unavailable (course IP)
+> RISC-V Pipeline source unavailable (course IP)
+
+---
+
+### 🔬 research
+
+**SIPLab @ Georgia Tech** — computing 1P/2P photocurrent sensitivity ratios across channelrhodopsin variants for neural simulation. finite-difference methods, Hill function curve fitting, Python/Jupyter pipelines.
+
+*I’m fascinated by the “brains” that drive the world around us, whether in silicon or biology!*
 
 ---
 
 ### 🔧 tools & languages
 
 ```
-Languages:   C · C++ · Python · SystemVerilog · ARM Assembly · RISC-V Assembly · VHDL
-Hardware:    STM32 · ARM Cortex-M3 · FPGA (Intel Quartus)
-Tools:       GDB · ST-Link · ModelSim · GTKWave · Git
-Protocols:   UART · SPI · I2C
+Languages:   C  ·  C++  ·  Python  ·  SystemVerilog  ·  ARM Assembly  ·  RISC-V Assembly  ·  VHDL
+Hardware:    STM32F103  ·  ARM Cortex-M3  ·  FPGA (Intel Quartus)
+Tools:       GDB  ·  ST-Link  ·  ModelSim  ·  GTKWave  ·  Git
+Protocols:   UART  ·  SPI  ·  I2C
 ```
 
 ---
 
 ### 🌱 currently
 
-- Building a bare metal RTOS on STM32 (GPIO → SysTick → UART → task switcher)
-- Undergraduate research at SIPLab on optogenetic neural simulation tooling
-- Actively seeking Fall 2026 / Spring 2027 embedded systems internships
+- bare metal OS: GPIO → SysTick → UART → task switcher (in progress)
+- undergraduate research at SIPLab on optogenetic neural simulation tooling
+- seeking Fall 2026 / Spring 2027 embedded systems internships
 
 ---
+
+<!-- Contribution snake — uncomment after running the GitHub Action once -->
+<!-- <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/randismaael/randismaael/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/randismaael/randismaael/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/randismaael/randismaael/output/github-contribution-grid-snake.svg">
+</picture> -->
 
 <div align="center">
 <sub>built from the ground up · no HAL · no shortcuts</sub>
