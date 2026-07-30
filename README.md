@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=500&color=2d6a4f&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=loading...;Hello%2C+World!;CE+%40+Georgia+Tech;embedded+systems;computer+architecture;bare+metal+firmware" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=500&color=963F2E&background=56694F00&center=true&vCenter=true&multiline=false&width=500&lines=loading...;Hello%2C+World!;CE+%40+Georgia+Tech;embedded+systems;computer+architecture;bare+metal+firmware" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-rismaael3%40gatech.edu-CAEDB8?style=flat-square&logo=gmail&logoColor=56694F)](mailto:rismaael3@gatech.edu)
 [![LinkedIn](https://img.shields.io/badge/linkedin-randismaael-CD9B59?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rand-ismaael-b92728294/)
