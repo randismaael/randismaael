@@ -38,7 +38,7 @@ Currently: undergraduate researcher at **SIPLab** + building a bare metal OS on 
 
 **SIPLab @ Georgia Tech**: modeling 1P/2P photocurrent sensitivity across channelrhodopsin variants using finite-difference slope analysis and Hill function curve fitting. Currently refactoring the raster-scanning optogenetics module in CLEO, an open-source neural simulation library.
 
-*Fascinated by the "brains" that drive the world around us, whether in silicon or biology!*
+*I <3 the "brains" of the world, whether in silicon or biology!*
 
 ---
 
